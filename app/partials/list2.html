@@ -1,0 +1,26 @@
+<div class="container-fluid">
+  <div class="row-fluid">
+   
+    <div>
+	
+	<!--Body content-->
+	  <p></p>
+	   </div>
+	   <div class="span10">
+	      <p><b>Category</b></p>
+	  <ul>
+            <li ng-repeat="cate in repo2">
+			{{cate.category}} {{cate.varcatecount}}
+			
+        </li>
+      </ul>
+       <div class="span10">
+	      <p><b>Location</b></p>
+	  <ul>
+         <li ng-repeat="cities in repo">
+			{{cities.cc}} {{cities.city}} {{cities.varcount}}
+	   </li>
+      </ul>
+    </div>
+  </div>
+</div>
